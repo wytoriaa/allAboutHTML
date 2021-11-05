@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastro de DEVS</h1>
+            <p>complete suas informações</p>
+                <br>
+    </div>
+    <form>
+        <fieldset>
+            <div>
+                <label>nome:</label>
+                <input type= "text" name= "nome" id= "nome">
+            </div>
+
+            <div>
+                <label>sobrenome:</label>
+                <input type= "sobrenome" name = "sobrenome" id= "sobrenome">
+
+            </div>
+        </fieldset>
+        <fieldset>
+        <div> 
+            <label>e-mail:</label>
+            <input type= "e-mail" name= "e-mail" id= "e-mail">
+
+        </div>
+    </fieldset>
+       <div>
+        <label> de qual lado da aplicação você desenvolve?</label>
+        <label>
+            <input type= "radio" name= "devweb" value= "frontend"> front-end
+        </label>   
+        <label>
+            <input type= "radio" name= "devweb" value= "backend"> back-end
+        </label> 
+        <label>
+            <input type= "radio" name= "devweb" value= "fullstack"> fullstack
+        </label>  
+    </div> 
+
+    <div>
+        <label>senioridade</label>
+        <select id="senioridade">
+            <option selected disabled value="selecione"></option>
+            <option>júnior</option>
+            <option>pleno</option>
+            <option>senior</option>
+        </select>
+    </div>
+    <div id="button">
+        <p></p>
+        <button type="submit"> enviar informações</button>
+    </div>
+    </form>
+</body>
+</html>

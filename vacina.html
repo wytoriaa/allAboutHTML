@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Vacinação</title>
+</head>
+<body>
+    <h1>CADASTRO PARA VACINAÇÃO</h1>
+    
+       <tbody><tr>
+           <td>
+        <form action="">
+            
+            
+            <fieldset>
+                <div>
+                    
+                    <label>nome:</label>
+                    <input type= "text" name= "nome" id= "nome">
+                </div>
+                <div>
+                   <label>data de nascimento:</label>
+                    <input type= "date" name= "data"required>
+                </div>
+                <div>
+                    <label>telefone:</label>
+                    <input type= "telefone" name= "telefone" id= "telefone">
+
+                </div>
+                <div>
+                    <label>e-mail:</label>
+                    <input type= "e-mail" name= "e-mail" id= "e-mail">
+
+                </div>
+                <div>
+                    <label>endereço:</label>
+                    <input type= "endereço" name= "endereço" id= "endereço">
+                </div>
+                <div>
+                    <label>bairro:</label>
+                    <input type= "bairro" name= "bairro" id= "bairro">
+                </div>
+                <div>
+                    <label>cidade/UF:</label>
+                    <input type= "text" name= "cidade/UF" id= "cidade/UF">
+                </div>
+            </td>
+                </form>
+            </fieldset>
+  
+
+            <tbody><tr>
+                <td>
+                    
+    <form action="">
+        
+        <div>
+        <label for="vacinas">Vacina</label>
+        <select name="vacinas" id="vacinas">
+            <option value="escolha uma opção">escolha uma opção</option>
+            <option value="coronavac">coronavac/butantã</option>
+            <option value="AstraZeneca/Oxford">AstraZeneca/Oxford</option>
+            <option value="Pfizer/Fiocruz">Pfizer/Fiocruz</option>
+            <option value="Moderna">Moderna</option>
+        </select>
+        </div>
+        <div>
+            <label> 
+                <div>
+                    <label> Possui Comorbidade?</label>
+                    <label>
+                        <input type= "radio" name= "comorbidade"> sim
+                    </label>   
+                    <label>
+                        <input type= "radio" name= "comorbidade"> não
+                    </label> 
+            </label>
+        </div>
+        <div>
+            <label>número do cartão do SUS</label>
+            <input type="number" name="cartão do sus">
+        </div>
+        <div>
+            <label style="text-align: justify;">observações</label>
+            <br><textarea style="width: 5cm; height: 6cm;"></textarea>
+        </tr>
+        </div></form></td>
+
+
+
+</body>
